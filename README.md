@@ -1,4 +1,4 @@
-# signals-analysis
+# Signals analysis
 
 Este es el trabajo final de la materia Análisis de datos científicos
 dictada por Rodrigo Ramele (ITBA).
@@ -40,10 +40,7 @@ https://github.com/natdebandi/signals-analysis/blob/275efc7a7ae000594724e9f25d47
 
 Lo primero fue levantar el dataset y realizar un análisis exploratorio.
 
-<figure>
-<img src="Signal1.png" id="fig:mesh1" alt="Señal original" />
-<figcaption aria-hidden="true">Señal original</figcaption>
-</figure>
+![señal inicial completa](https://drive.google.com/file/d/1unWqhdcIsUlstq4_Qv3UZviXj-M4vbcz/view?usp=share_link)
 
 A partir del video se marcaron los tiempos según el timestamp en el que
 suceden los cambios. Cada tramo tiene una duracion de 60 seg
