@@ -57,7 +57,7 @@ poder seguir más facilmente las ocurencias en la señal.
 Luego se separó agregó una etiqueta con los tiempos marcados y se
 grafico usando seaborn.
 
-![Señal con la identificación de cada cambio](/images/Signal_labels.png?raw=true)
+![Señal con la identificación de cada cambio](https://github.com/natdebandi/signals-analysis/blob/a941976b108a3575c28488056a6f889ef29000e1/images/signal_labels.png?raw=true)
 
 
 # Separación de señales y extracción de features
@@ -87,12 +87,7 @@ A partir de ahi se extrae de cada una de las señales: "signals baseline"
 y "signal tos". Se observa que se suaviza la señal levemente,
 destacándose un poco más los picos de cada fragmento.
 
-<figure>
-<img src="signals_bt.png" id="fig:mesh1"
-alt="fragmentos de señal baseline y tos" />
-<figcaption aria-hidden="true">fragmentos de señal baseline y
-tos</figcaption>
-</figure>
+![fragmentos de señal baseline y tos](https://github.com/natdebandi/signals-analysis/blob/a941976b108a3575c28488056a6f889ef29000e1/images/signals_bt.png?raw=true)
 
 Para extraer los features utilicé las funciones que estaban en el
 proyecto (crest_factor, hjorth y pfd). Cree también una función que dado
