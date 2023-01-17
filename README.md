@@ -40,7 +40,7 @@ https://github.com/natdebandi/signals-analysis/blob/275efc7a7ae000594724e9f25d47
 
 Lo primero fue levantar el dataset y realizar un análisis exploratorio.
 
-![señal inicial completa](/images/Signal1.png)
+![señal inicial completa](/signals-analysis/images/Signal1.png)
 
 A partir del video se marcaron los tiempos según el timestamp en el que
 suceden los cambios. Cada tramo tiene una duracion de 60 seg
