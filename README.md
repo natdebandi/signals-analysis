@@ -141,12 +141,8 @@ Se calcularon los features haciendo distintas pruebas, usando ventanas
 de 1,2 y 3 segundos multiplicadas por la frecuencia de sampleo 512).Se
 decidió tomar la ventana de 1 segundo para tener más datos.
 
-<figure>
-<img src="features1.png" id="fig:mesh1"
-alt="Scatterplot del feature entropia vs activity" />
-<figcaption aria-hidden="true">Scatterplot del feature entropia vs
-activity</figcaption>
-</figure>
+![Scatterplot del feature entropia vs activity] (https://github.com/natdebandi/signals-analysis/blob/7df824f685a74a89705b8e516e8da759edb1e640/images/features1.png?raw=true)
+
 
 Se hicieron distintas pruebas de clasificación. Se reutilizó el código
 existente en el proyecto (signalfeatureclassification.py y
@@ -171,12 +167,8 @@ se obtuvo con LDA pero no es tampoco satisfactorio.
     Decision Tree: ROC AUC=0.493
     Random Forest: ROC AUC=0.549
 
-<figure>
-<img src="clasificacion1.png" id="fig:mesh1"
-alt="Curvas ROC de las técnicas de clasificación n(baseline vs tos)" />
-<figcaption aria-hidden="true">Curvas ROC de las técnicas de
-clasificación n(baseline vs tos)</figcaption>
-</figure>
+![Curvas ROC de las técnicas de clasificación (baseline vs tos)] (https://github.com/natdebandi/signals-analysis/blob/7df824f685a74a89705b8e516e8da759edb1e640/images/clasificacion1.png?raw=true)
+
 
 También se aplicó una red neuronal simple (keras) la cual obtuvo
 resultados similares a las otras técnicas.
@@ -202,12 +194,8 @@ Se aplicaron las mismas estrategias de análisis obteniendo los features
 a partir de una venta de 2 segundos (512 de frecuencia de sampleo). En
 este caso los resultados fueron mucho mejores:
 
-<figure>
-<img src="clasificacion2.png" id="fig:mesh1"
-alt="Curvas ROC de las técnicas de clasificación (respiración fuerte vs rápida)" />
-<figcaption aria-hidden="true">Curvas ROC de las técnicas de
-clasificación (respiración fuerte vs rápida)</figcaption>
-</figure>
+![Curvas ROC de las técnicas de clasificación (respiración fuerte vs rápida)] (https://github.com/natdebandi/signals-analysis/blob/7df824f685a74a89705b8e516e8da759edb1e640/images/clasificacion2.png?raw=true)
+
 
     Trivial: ROC AUC=0.500
     SVM: ROC AUC=0.871
