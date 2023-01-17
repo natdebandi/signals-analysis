@@ -57,12 +57,8 @@ poder seguir más facilmente las ocurencias en la señal.
 Luego se separó agregó una etiqueta con los tiempos marcados y se
 grafico usando seaborn.
 
-<figure>
-<img src="Signal_labels.png" id="fig:mesh1"
-alt="Señal con la identificación de cada cambio" />
-<figcaption aria-hidden="true">Señal con la identificación de cada
-cambio</figcaption>
-</figure>
+![Señal con la identificación de cada cambio](/images/Signal_labels.png?raw=true)
+
 
 # Separación de señales y extracción de features
 
