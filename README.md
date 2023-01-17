@@ -34,7 +34,7 @@ rápida.
 
 El notebook utilizado se encuentra aqui:
 
-https://github.com/natdebandi/trabajitos/blob/4a67844bed63f8957d7e4a5659aab5598328d8c4/TPfinal-scientific/TPfinal
+https://github.com/natdebandi/signals-analysis/blob/275efc7a7ae000594724e9f25d47aa4a2593e9ac/signal-analysis.ipynb
 
 # Análisis exploratorio
 
