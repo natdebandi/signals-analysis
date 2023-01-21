@@ -4,7 +4,7 @@ Este es el trabajo final de la materia Análisis de datos científicos
 dictada por Rodrigo Ramele (ITBA).
 
 El objetivo es analizar la señal proveniente de un encefalograma con el
-objetivo de aplicar tecnicas supervizadas o no supervizadas de
+objetivo de aplicar tecnicas supervisadas o no supervisadas de
 aprendizaje automático. Los datos tienen una duración de 12 minutos
 aproximadamente y contienen siguiendo la siguiente secuencia de
 acciones:
